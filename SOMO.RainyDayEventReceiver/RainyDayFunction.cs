@@ -1,14 +1,12 @@
-using System;
-using System.Security.Authentication;
-using System.Threading.Tasks;
 using Microsoft.Azure.WebJobs;
-
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using MongoDB.Bson;
 using MongoDB.Driver;
-using SOMO.RainyDayEventReceiver.Models;
 using Newtonsoft.Json;
+using SOMO.RainyDayEventReceiver.Models;
+using System.Security.Authentication;
+using System.Threading.Tasks;
 
 namespace SOMO.RainyDayEventReceiver
 {
